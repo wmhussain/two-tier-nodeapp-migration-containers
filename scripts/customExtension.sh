@@ -29,4 +29,4 @@ sudo git clone https://github.com/evillgenius75/gbb-todo /app
 cd /app
 npm install
 #to be done my user 'npm start'
-exit 0x
+exit 0
