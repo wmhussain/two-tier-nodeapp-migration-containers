@@ -248,7 +248,7 @@
               "fileUris": [
                 "[concat(parameters('_artifactsLocation'),'scripts/',variables('customExtensionScriptFileName'))]"
               ],
-              "commandToExecute": "[concat('su -csh ', variables('customExtensionScriptFileName'))]"
+              "commandToExecute": "[concat('sh ', variables('customExtensionScriptFileName'))]"
             }
           }
         }
