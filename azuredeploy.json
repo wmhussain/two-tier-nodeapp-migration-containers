@@ -245,7 +245,7 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
               "fileUris": [
-                "[concat(parameters('_artifactsLocation'),'scripts/')]"
+                "[concat(parameters('_artifactsLocation'),'scripts/',variables('customExtensionScriptFileName'))]"
               ],
               "commandToExecute": "[concat('su -csh ', variables('customExtensionScriptFileName'))]"
             }
