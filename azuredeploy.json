@@ -31,7 +31,7 @@
     "subnetRef": "[concat(variables('vnetID'),'/subnets/','subnet')]",
     "newStorageAccountName": "[concat('storage',uniqueString(resourceGroup().id))]",
     "dnsNameForPublicIP": "[concat('pip',uniqueString(resourceGroup().id))]",
-    "customExtensionScriptFileName": "customExtension.sh",
+    "customExtensionScriptFileName": "mongo_nodejs.sh",
     "todoAppTags": {
       "type": "object",
       "provider": "NA"
